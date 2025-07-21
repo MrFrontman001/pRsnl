@@ -27,14 +27,14 @@ ADMINS = [
     for admin in environ.get("ADMINS", "7782885132 6552970915").split()
 ]
 OWNER_USERNAME = environ.get(
-    "OWNER_USERNAME", "itz_THANOS"
+    "OWNER_USERNAME", "DevTHANOS"
 )  # without @ or https://t.me/
 USERNAME = environ.get("USERNAME", "")  # ADMIN USERNAME
 
 # Database Channel
 CHANNELS = [
     int(ch) if id_pattern.search(ch) else ch
-    for ch in environ.get("CHANNELS", "-1002600618270").split()
+    for ch in environ.get("CHANNELS", "-1002593263685").split()
 ]
 
 # ForceSub Channel & Log Channels

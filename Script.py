@@ -123,9 +123,12 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<blockquote><b><a href='https://t.me/+hj5-2izzCwczMTE1'>{file_caption}</a></blockquote> </b>"""
+    FILE_CAPTION = """<blockquote><b><a href='https://t.me/+hj5-2izzCwczMTE1'>{file_caption}</a></blockquote>
+    
+    🔱 Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://t.me/FilmyWabX'>[FilmyWabX]</a></b>"""
 
-    ALRT_TXT = """ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ sᴇᴀʀᴄʜɪɴɢ !?"""
+    ALRT_TXT = """ᴅᴏ ɴᴏᴛ ᴅɪꜱᴛᴜʀʙ ʜᴇʀᴇ !
+    ʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀꜱ ꜱɪɴᴄᴇʀᴇʟʏ !!"""
 
     OLD_ALRT_TXT = """ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴍʏ ᴏʟᴅ ᴍᴇssᴀɢᴇs..sᴇɴᴅ ᴀ ɴᴇᴡ ʀᴇǫᴜᴇsᴛ.."""
 

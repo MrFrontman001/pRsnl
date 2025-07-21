@@ -154,27 +154,22 @@ async def start(client: Client, message):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇋",
-                    url=f"http://telegram.dog/{temp.U_NAME}?startgroup=start",
+                    "𓆩• ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ •𓆪",
+                    url=f"https://t.me/FilmyXupdateS",
                 )
             ],
             [
-                InlineKeyboardButton("• ᴅɪꜱᴀʙʟᴇ ᴀᴅꜱ •", callback_data="jisshupremium"),
-                InlineKeyboardButton("• ꜱᴘᴇᴄɪᴀʟ •", callback_data="special"),
+                InlineKeyboardButton("✯ ꜱᴘᴇᴄɪᴀʟ", callback_data="help"),
+                InlineKeyboardButton("ғᴇᴀᴛᴜʀᴇꜱ ✇", callback_data="special"),
             ],
             [
-                InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data="help"),
-                InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about"),
-            ],
-            [
-                InlineKeyboardButton(
-                    "• ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •", callback_data="earn"
-                )
+                InlineKeyboardButton("𓆩ཫ ᴅᴏɴᴀᴛᴇ", callback_data="source"),
+                InlineKeyboardButton("ɴᴏᴛɪᴄᴇ ཀ𓆪", callback_data="about"),
             ],
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         m = await message.reply_sticker(
-            "CAACAgUAAx0CZz_GMwACMBdnXZA4SejgJ6a_0TrNzOfn9ImI_QACNwsAArT4iFVaZPJf8ldVVh4E"
+            "CAACAgUAAxkBAAEMayhoXKr8LNy-C_kmAxlqiumapcHJ2AACjxkAAp774VZn1cFslgGWNB4E"
         )
         await asyncio.sleep(1)
         await m.delete()
@@ -196,22 +191,17 @@ async def start(client: Client, message):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇋",
-                    url=f"http://telegram.dog/{temp.U_NAME}?startgroup=start",
+                    "𓆩• ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ •𓆪",
+                    url=f"https://t.me/FilmyXupdateS",
                 )
             ],
             [
-                InlineKeyboardButton("• ᴅɪꜱᴀʙʟᴇ ᴀᴅꜱ •", callback_data="jisshupremium"),
-                InlineKeyboardButton("• ꜱᴘᴇᴄɪᴀʟ •", callback_data="special"),
+                InlineKeyboardButton("✯ ꜱᴘᴇᴄɪᴀʟ", callback_data="help"),
+                InlineKeyboardButton("ғᴇᴀᴛᴜʀᴇꜱ ✇", callback_data="special"),
             ],
             [
-                InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data="help"),
-                InlineKeyboardButton("• ᴀʙᴏᴜᴛ •", callback_data="about"),
-            ],
-            [
-                InlineKeyboardButton(
-                    "• ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •", callback_data="earn"
-                )
+                InlineKeyboardButton("𓆩ཫ ᴅᴏɴᴀᴛᴇ", callback_data="source"),
+                InlineKeyboardButton("ɴᴏᴛɪᴄᴇ ཀ𓆪", callback_data="about"),
             ],
         ]
         reply_markup = InlineKeyboardMarkup(buttons)

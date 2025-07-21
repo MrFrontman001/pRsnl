@@ -531,14 +531,14 @@ async def start(client: Client, message):
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup(btn),
     )
-    delCap = "<i>ʏᴏᴜʀ ꜰɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</i>".format(
-        f"{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs"
+    delCap = "<b>⚠️This file automatically delete after {}\n📩 So please forward file in another chat!</b>".format(
+        f"{FILE_AUTO_DEL_TIMER / 60} Min"
         if FILE_AUTO_DEL_TIMER >= 60
         else f"{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs"
     )
     afterDelCap = (
-        "<i>ʏᴏᴜʀ ꜰɪʟᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</i>".format(
-            f"{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs"
+        "<b>⚠️This file automatically delete after {}\n📩 So please forward file in another chat!</b>".format(
+            f"{FILE_AUTO_DEL_TIMER / 60} Min"
             if FILE_AUTO_DEL_TIMER >= 60
             else f"{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs"
         )

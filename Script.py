@@ -117,18 +117,18 @@ User - {}"""
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
 
-🍿 Title: {title}
-🎃 Genres: {genres}
+🏷️ Title: {title}
+🎭 Genres: {genres}
 📆 Year: {release_date}
 ⭐ Rating: {rating} / 10</b>
 """
 
     FILE_CAPTION = """<blockquote><b><a href='https://t.me/+hj5-2izzCwczMTE1'>{file_caption}</a></blockquote>
-    
-    🔱 Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://t.me/FilmyWabX'>[FilmyWabX]</a></b>"""
+
+🔱 Pᴏᴡᴇʀᴇᴅ Bʏ :  <a href='https://t.me/FilmyWabX'>[FilmyWabX]</a></b>"""
 
     ALRT_TXT = """ᴅᴏ ɴᴏᴛ ᴅɪꜱᴛᴜʀʙ ʜᴇʀᴇ !
-    ʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀꜱ ꜱɪɴᴄᴇʀᴇʟʏ !!"""
+ʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀꜱ ꜱɪɴᴄᴇʀᴇʟʏ !!"""
 
     OLD_ALRT_TXT = """ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴍʏ ᴏʟᴅ ᴍᴇssᴀɢᴇs..sᴇɴᴅ ᴀ ɴᴇᴡ ʀᴇǫᴜᴇsᴛ.."""
 

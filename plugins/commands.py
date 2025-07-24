@@ -298,13 +298,13 @@ async def start(client: Client, message):
                 logger.error("Make sure Bot is admin in Forcesub channel")
                 return
             btn = [
-                [InlineKeyboardButton("⛔️ ᴊᴏɪɴ ɴᴏᴡ ⛔️", url=invite_link.invite_link)]
+                [InlineKeyboardButton("Subscribe 📢", url=invite_link.invite_link)]
             ]
             if message.command[1] != "subscribe":
                 btn.append(
                     [
                         InlineKeyboardButton(
-                            "♻️ ᴛʀʏ ᴀɢᴀɪɴ ♻️",
+                            "Joined ✅",
                             url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}",
                         )
                     ]
@@ -328,7 +328,7 @@ async def start(client: Client, message):
             btn.append(
                 [
                     InlineKeyboardButton(
-                        "⛔️ ᴊᴏɪɴ ɴᴏᴡ ⛔️", url=invite_link_custom.invite_link
+                        "Subscribe 📢", url=invite_link_custom.invite_link
                     )
                 ]
             )
@@ -339,7 +339,7 @@ async def start(client: Client, message):
             btn.append(
                 [
                     InlineKeyboardButton(
-                        "⛔️ ᴊᴏɪɴ ɴᴏᴡ ⛔️", url=invite_link_default.invite_link
+                        "Subscribe² 📢", url=invite_link_default.invite_link
                     )
                 ]
             )
@@ -350,7 +350,7 @@ async def start(client: Client, message):
             btn.append(
                 [
                     InlineKeyboardButton(
-                        "♻️ ᴛʀʏ ᴀɢᴀɪɴ ♻️",
+                        "Joined ✅",
                         url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}",
                     )
                 ]
